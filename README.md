@@ -1,3 +1,10 @@
+<!--
+ * @Descripttion: 
+ * @Author: lukasavage
+ * @Date: 2022-01-03 10:40:55
+ * @LastEditors: lukasavage
+ * @LastEditTime: 2022-01-09 22:27:29
+-->
 # webpack-demo
 
 #### 介绍
@@ -9,15 +16,14 @@
 
 #### 安装教程
 
-1.  xxxx
+1.  直接使用yarn安装
 2.  xxxx
 3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. yarn build 打包构建
+2. yarn dev 开发配置
 
 #### 参与贡献
 
