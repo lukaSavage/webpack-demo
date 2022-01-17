@@ -1,14 +1,21 @@
 {
-    "compilerOptions": {
-        "target": "esnext",
-        "module": "esnext",
-        "moduleResolution": "node",
-        "strict": true,
-        "jsx": "preserve",
-        "sourceMap": true,
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
-        "lib": ["esnext", "dom"]
-    },
-    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "compilerOptions": {
+    "target": "ESNext",
+    /* 代表模块使用什么写的 */
+    "module": "ESNext",
+    /* 模块寻找方式 */
+    "moduleResolution": "Node",
+    /* 是否开启严格模式 */
+    "strict": true,
+    /* 代表保留不转义 */
+    "jsx": "preserve",
+    "sourceMap": true,
+    /* 是否支持json模块 */
+    "resolveJsonModule": true,
+    /* 是否支持模块规范的转换 */
+    "esModuleInterop": true,
+    /* 需要哪些库 */
+    "lib": ["ESNext", "DOM"],
+  },
+  "includes": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
